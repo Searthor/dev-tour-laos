@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'saysettha ot';
+}
+body{
+    background-image: url(image/BackgroundJCD3.jpeg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+.cart_login{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #D9D9D9;
+    padding: 32px;
+    text-align: center;
+    backdrop-filter: blur(20px);
+}
+.cart_login .logo img{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    margin-top: 16px;
+}
+.cart_login .titel h1{
+    margin-top: 16px;
+    font-size: 34px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+
+}
+.cart_login .inputs{
+    text-align: start;
+}
+.cart_login .inputs .input{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+}
+#uservali{
+    color: red;
+    display: none;
+    font-size: 14px;
+    
+}
+#uservali.active{
+    display: block;
+}
+#passvili{
+    color: red;
+    display: none;
+    font-size: 14px;
+}
+#passvili.active{
+    
+    display: block;
+}
+
+.cart_login .inputs .input .input-box{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid #D9D9D9;
+    width: 100%;
+    display: flex;
+}
+.cart_login .inputs .input .input-box .eye{
+    right: 0;
+    cursor:pointer;
+    color: #FFFFFF;
+}
+.cart_login .inputs .input label{
+    margin-bottom: 10px;
+   color: #FFFFFF;
+}
+.cart_login .inputs .input input{
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    color: #FFFFFF;
+}
+.cart_login .inputs .input input::placeholder{
+    color: #FFFFFF;
+}
+.cart_login .forgot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart_login .forgot p{
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+.cart_login .forgot p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.cart_login .remanber{
+    margin-top: 16px;
+    display: flex;
+}
+
+.cart_login .remanber label{
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.cart_login .btn_login{
+    margin-top: 16px;
+    background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+    padding: 10px 15px ;
+    font-size: 14px;
+    cursor: pointer;
+    height: auto;
+}
